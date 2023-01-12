@@ -11,6 +11,6 @@ function clicar() {
     }else if (numero <= 60) {
         res.innerHTML = `<p>Tudo certo, você estava dentro do limite permitido, sua velocidade era de: <strong>${60-numero}Km/h a menos que o limite permitido</strong></p>`
     }else {
-        res.innerHTML = `<p>Você foi multado(a) em:<strong> R$${calc}</strong>. Com ${numero-60}Km/h a mais que o permitido</p>`
+        res.innerHTML = `<p>Você foi multado(a) em:<strong> R$${calc}</strong>. Com ${numero-60}Km/h a mais que o permitido, multa aplicada em R$100 a cada 1Km excedido!</p>`
     }
 }
